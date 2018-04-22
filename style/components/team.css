@@ -1,0 +1,73 @@
+.team-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.team {
+  margin: 70px 0;
+}
+
+.team-description {
+  text-align: left;
+}
+
+.team-description h2 {
+  font-weight: 600;
+  box-shadow: inset 0px -10px #829F40;
+
+}
+
+.team-info {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.team-info p {
+  text-align: center;
+}
+
+/*.left {
+  margin: 50px 0 0 50px;
+}
+
+.right {
+  margin: 50px 50px 0 0;
+}*/
+
+
+.team-description h4 {
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.team-member {
+  margin-bottom: 30px;
+}
+
+
+
+.cohort-text {
+  margin: 80px auto;
+  max-width: 800px;
+}
+
+
+.image-right {
+  float: right;
+  margin-left: 15px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: #829F40 2px solid;
+
+}
+
+.image-left {
+  float: left;
+  margin-right: 15px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: #829F40 2px solid;
+}

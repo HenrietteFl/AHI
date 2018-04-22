@@ -1,0 +1,21 @@
+/*h1 {
+  font-size: 100px;
+  font-weight: 500;
+  text-shadow: rgab(0,0,0,0.5);
+  border-top: 3px solid;
+  content: "";
+  font-size: 1px;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  width: 40%;
+}*/
+
+.programm-content {
+  margin: 70px auto 0 auto;
+}
+
+.program-description {
+  max-width: 900px;
+  margin: 70px auto 0 auto;
+}

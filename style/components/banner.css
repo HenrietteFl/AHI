@@ -1,0 +1,136 @@
+
+.container {
+  margin-top: -30px;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 110px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("../../images/Header_Option 1.jpg");
+}
+
+.banner-header {
+  background-size: 100% 100% !important;
+  box-shadow: inset 0px -8px #526A1C;
+
+
+.banner h1 {
+  font-size: 100px;
+  font-weight: 500;
+  text-shadow: rgab(0,0,0,0.5);
+  margin: 10px;
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: black;
+  /*opacity: 0.6;*/
+  margin-bottom: 30px;
+}
+
+.background-banner {
+  text-align: center;
+  height: 300px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-group {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  z-index: -1;
+}
+
+.btn-group:hover {
+  color: #E8E8E8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.button-link {
+  color: black;
+  line-height: 26px;
+  font-size: 18px;
+  text-decoration: underline;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.button-link:hover {
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+
+.button-link:visited {
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+
+.info-button p {
+  margin: 0;
+}
+
+#application {
+  position: relative;
+}
+
+#head-banner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  box-shadow: inset 0px -8px #526A1C ! important;
+  /*width: 100%;*/
+}
+
+
+
+.banner-text h2 {
+  font-size: 50px;
+  font-weight: 300;
+  text-shadow: rgab(0,0,0,0.5);
+}
+
+.banner-text p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: black;
+  /*opacity: 0.6;*/
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .image-one, .image-two {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .image-one, .image-two {
+    display: none;
+  }
+}

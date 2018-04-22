@@ -1,0 +1,27 @@
+.impressum {
+  margin: 30px;
+}
+
+
+
+.impressum p {
+  color: rgba(0,0,0,0.7);
+  margin: 30px 0 20px 0;
+}
+
+
+.impressum h4 {
+  margin: 30px 0 20px 0;
+}
+
+
+.impressum h2 {
+  margin: 30px 0;
+}
+
+.impressum ol {
+  color: rgba(0,0,0,0.7);
+  margin: 30px 0 20px 0;
+  line-height: 26px;
+  font-size: 18px;
+}
