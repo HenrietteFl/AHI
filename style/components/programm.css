@@ -15,6 +15,10 @@
   margin: 70px auto 0 auto;
 }
 
+.programm-content h1 {
+  font-size: 30px;
+}
+
 .program-description {
   max-width: 900px;
   margin: 70px auto 0 auto;

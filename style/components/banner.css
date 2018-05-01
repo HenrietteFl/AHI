@@ -19,20 +19,23 @@
 .banner-header {
   background-size: 100% 100% !important;
   box-shadow: inset 0px -8px #526A1C;
-
+}
 
 .banner h1 {
-  font-size: 100px;
+  font-size: 40px;
   font-weight: 500;
-  text-shadow: rgab(0,0,0,0.5);
+  text-shadow: 1px 1px ##282828;
   margin: 10px;
+  padding: 5px;
 }
+
 .banner p {
   font-size: 25px;
   font-weight: lighter;
-  color: black;
+  color: white;
   /*opacity: 0.6;*/
   margin-bottom: 30px;
+  padding: 5px;
 }
 
 .background-banner {
@@ -99,7 +102,9 @@
   /*width: 100%;*/
 }
 
-
+.banner-text h1 {
+  padding: 5px;
+}
 
 .banner-text h2 {
   font-size: 50px;
@@ -110,11 +115,38 @@
 .banner-text p {
   font-size: 25px;
   font-weight: lighter;
-  color: black;
+  color: white;
   /*opacity: 0.6;*/
   margin-bottom: 30px;
+  text-shadow: 1px 1px #526A1C;
 }
 
+.list ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.list a {
+  color: black;
+  font-size: 17px;
+}
+
+.list a:link {
+  color: #526A1C;
+  text-decoration: none;
+  font-weight:500;
+}
+
+.list a:hover {
+  color: #526A1C;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight:500;
+}
+
+.list li {
+  margin-bottom:5px;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
